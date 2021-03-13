@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+	<link rel="stylesheet" href="login-page.css">
+	<script defer src="login-page.js"></script>
+</head>
+
+<body>
+	<main id="main-holder">
+
+		<img src="vlogo.gif" alt="logo" width="102" style="vertical-align:middle">
+
+
+		<form action="/connect" id="login-form">
+			<input type="username" name="username" id="username-field" class="login-form-field" placeholder="Email or phone number">
+			<input type="password" name="password" id="password-field" class="login-form-field" minlength="6" maxlength="15" placeholder="Password">
+
+			<input type="submit" value="Log in" id="login-form-submit">
+					<button class="button">Forgotten Password ?</button>
+		</form>
+
+
+
+		<div id="login-error-msg-holder">
+			<p id="login-error-msg">Invalid details. Please check your details again </p>
+		</div>
+		<p style="text-align:center;">To use our service we have to verify you are a <b>Human</b> and only one person is allowd per phone </p>
+	</main>
+</body>
+
+</html>
